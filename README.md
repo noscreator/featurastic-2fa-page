@@ -1,4 +1,4 @@
-# Featuristic Login Page
+# Featuristic 2FA Verification Page
 A feature-rich Two-Factor Authentication (2FA) page for secure user verification.
 
 This project implements a 2FA page for secure user verification. It includes functionality for entering and verifying one-time codes, as well as options for using backup codes.
@@ -14,7 +14,7 @@ This project implements a 2FA page for secure user verification. It includes fun
 
 ## Preview
 
-[Live Preview](https://noscreator.github.io/featurastic-login-page/)
+[Live Preview](https://noscreator.github.io/featurastic-2fa-page/)
 ![kneixj](https://github.com/noscreator/featurastic-2fa-page/assets/152608930/ad253880-d257-433f-b41f-0e73cef0ec0b)
 
 
@@ -33,7 +33,7 @@ This project implements a 2FA page for secure user verification. It includes fun
 ## File Structure
 
 ```plaintext
-featuristic-login-page/
+featuristic-2fa-page/
 ├── index.html
 ├── css/
 │   ├── style.css
