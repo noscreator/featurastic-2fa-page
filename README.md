@@ -15,7 +15,8 @@ This project implements a 2FA page for secure user verification. It includes fun
 ## Preview
 
 [Live Preview](https://noscreator.github.io/featurastic-login-page/)
-![IMG_20240307_145209](https://github.com/noscreator/featurastic-login-page/assets/152608930/e36fa431-2a50-4725-8019-4ae6b0345563)
+![kneixj](https://github.com/noscreator/featurastic-2fa-page/assets/152608930/ad253880-d257-433f-b41f-0e73cef0ec0b)
+
 
 ## Usage
 
