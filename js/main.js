@@ -1,4 +1,5 @@
-// /public/js/twofa.js
+// /js/main.js
+
 function restrictInputToDigits(event) {
   const input = event.target;
   input.value = input.value.replace(/\D/g, ''); // Allow only digits
@@ -9,7 +10,6 @@ function restrictInputToDigits(event) {
   }
 }
 
-// /public/js/twofa.js
 function submitVerification(event) {
   event.preventDefault();
 
@@ -22,10 +22,17 @@ function submitVerification(event) {
     document.getElementById('verificationCode5').value +
     document.getElementById('verificationCode6').value;
 
-  // Perform verification logic (e.g., compare with stored code, send to server for validation)
-  
+  // Replace this with the expected or stored verification code
+  const expectedCode = "123456"; // Example code, replace with your actual logic
 
-  // Add your verification logic here
+  // Perform verification logic
+  if (verificationCode === expectedCode) {
+    alert('Verification successful!');
+    // Add logic for successful verification (e.g., redirect or display success message)
+  } else {
+    alert('Verification failed. Please try again.');
+    // Display an error message to the user
+  }
 
   // Clear the input fields after verification attempt
   document.getElementById('verificationCode1').value = '';
@@ -39,4 +46,6 @@ function submitVerification(event) {
 function resendCode() {
   // Add logic to resend the verification code (e.g., send a new code via SMS)
   console.log('Resending verification code...');
+  // Optionally, provide a confirmation to the user
+  alert('A new verification code has been sent.');
 }
