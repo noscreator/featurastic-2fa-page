@@ -1,58 +1,56 @@
-# Featuristic 2FA Verification Page
-A feature-rich Two-Factor Authentication (2FA) page for secure user verification.
+![GitHub Pages](https://img.shields.io/github/deployments/noscreator/featurastic-2fa-page/github-pages.svg?style=flat-square&color=cyan)
+![GitHub Latest Release](https://img.shields.io/github/v/release/noscreator/featurastic-2fa-page.svg?style=flat-square&color=cyan)
+![GitHub License](https://img.shields.io/github/license/noscreator/featurastic-2fa-page.svg?style=flat-square&color=cyan)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/noscreator/featurastic-2fa-page.svg?style=flat-square&color=cyan)
+
+---
+
+### Featuristic 2FA Verification Page
+[![Blue Futuristic Technology Presentation_20240310_103546_0000](https://github.com/noscreator/featurastic-2fa-page/assets/152608930/ad253880-d257-433f-b41f-0e73cef0ec0b)
+](https://youtu.be/rMnDe0iEGRs?si=8w729cX0Lj9Ln0If)
 
 This project implements a 2FA page for secure user verification. It includes functionality for entering and verifying one-time codes, as well as options for using backup codes.
 
+---
 
-## Features
-
+### Features
 - Secure entry of verification codes 
 - Automatic focus shift to the next input field after entering a digit
 - Resend verification code option
 - Provides an engaging interface with interactive buttons and animations.
 - Ensures a secure login experience with customizable form fields.
 
-## Preview
+---
 
-[Live Preview](https://noscreator.github.io/featurastic-2fa-page/)
-![kneixj](https://github.com/noscreator/featurastic-2fa-page/assets/152608930/ad253880-d257-433f-b41f-0e73cef0ec0b)
+### Links
+[![Web Demo](https://img.shields.io/badge/Web-Demo-blue?style=for-the-badge&logo=google-chrome)](https://noscreator.github.io/featurastic-2fa-page)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-green?style=for-the-badge&logo=github)](https://github.com/noscreator/featurastic-2fa-page)
+[![YouTube Video](https://img.shields.io/badge/YouTube-Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/rMnDe0iEGRs?si=B2viVesOhHYusbBG)
 
+---
 
-## Usage
+### Installation
+Provide step-by-step instructions on how to install and set up your project.
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/noscreator/featuristic-login-page.git
    ```
-
 2. Open `index.html` in your preferred web browser.
+3. Explore the two factor authication page and enjoy the featuristic experience!
 
-3. Explore the login page and enjoy the featuristic experience!
+---
 
-## File Structure
+### Usage
+> Used for Authication.
 
-```plaintext
-featuristic-2fa-page/
-├── index.html
-├── css/
-│   ├── style.css
-│   └── other-styles.css
-├── js/
-│   ├── script.js
-│   └── additional-script.js
-├── images/
-│   ├── background.jpg
-│   └── logo.png
-├── fonts/
-│   ├── roboto-mono.woff
-│   └── orbitron.woff
-└── README.md
-```
 
-## Contributing
+> **Note:** This is a helpful note or tip.
 
-If you'd like to contribute to this project, please follow these steps:
+---
+
+### Contributing
+If you'd like to contribute to this project, please follow these ste
 
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/improvement`).
@@ -60,6 +58,8 @@ If you'd like to contribute to this project, please follow these steps:
 4. Push to the branch (`git push origin feature/improvement`).
 5. Open a Pull Request.
 
-## License
+---
 
-This project is licensed under the [MIT License](LICENSE).
+### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
